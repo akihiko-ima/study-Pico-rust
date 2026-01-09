@@ -17,7 +17,13 @@ futures = { version = "0.3.21", default-features = false }
 rp-pico = "0.7.0"
 embedded-hal = { version = "0.2.7", features = ["unproven"] }
 panic-halt = "0.2.0"
+heapless = "0.7"
 
 [[bin]]
-name = "led"
-path = "src/led.rs"
+# hello world example over serial
+name = "helloworld"
+path = "src/helloworld.rs"
+
+# led blinking example
+# name = "led"
+# path = "src/led.rs"

@@ -18,6 +18,14 @@ cargo install elf2uf2-rs --locked
 
 #### 2. pico uf2 作成コマンド
 
+- led blink sample
+
 ```ps1
 cargo run --release  --bin led
+```
+
+- hello world sample
+
+```ps1
+cargo run --release  --bin helloworld
 ```
